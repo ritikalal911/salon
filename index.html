@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LHS Salon</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/62418985c1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <main id="blur">
+    <div id="first">
+        <!--Nav Bar-->
+        <header>
+            <img src="logo.png" alt="logo" height="70px" id="home">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#package">Packages</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#contact"><button>Contact</button></a>
+        </header><br>
+        <!--Image slideshow-->
+        <div id="gallery">
+            <h1 class="headings">Gallery</h1><hr><br>
+            <div class="slider">
+                <div class="slides">
+                    <!--radio button starts-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio button ends-->
+                    <!--slide images starts-->
+                    <div class="slide first">
+                        <img src="1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="3.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="4.jpg">
+                    </div>
+                    <!--slide images ends-->
+                    <!--automatic navigation starts-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation ends-->
+                </div>
+                <!--manual navigation starts-->
+                <div>
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+                <!--manual navigation ends-->
+            </div>
+        </div>
+    </div>
+    <!--Image slideshow ends-->
+    <!--About us starts-->
+    <div id="second">
+        <a href="#home"><img src="logo.png" height="100px" width="270px" id="logo"></a>
+        <div  id="about">
+            <h1 class="headings">About Us</h1><hr><br>
+            <div class="about">
+                <p>Over 16 years of experience specialising in women's high fashion hair styling, cutting and colouring techniques. Also specialising 
+                    in men's barbering and children's haircuts.A beauty salon or beauty parlor is an establishment dealing with cosmetic treatments for
+                    men and women. Other variations of this type of business include hair salons, spas, day spas, and medspas</p>
+            </div>
+            <img src="about.PNG" id="img">
+        </div>
+    </div>
+    <!--About us ends-->
+    <!--Services starts-->
+    <div id="services">
+        <a href="#home"><img src="logo.png" height="100px" width="270px"" id="logo"></a>
+        <h1 class="headings">Services</h1><hr><br>
+        <div class="services">
+            <div class="box">
+                <div class="inner">
+                    <img src="manicure.png" width="150px" height="150px">
+                    <p>Manicure</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="pedicure.png" width="150px" height="150px">
+                    <p>Pedicure</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="makeup.png" width="150px" height="150px">
+                    <p>Makeup</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="hairstyle.png" width="150px" height="150px">
+                    <p>Hairstyle</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="haircut.png" width="150px" height="150px">
+                    <p>Haircut</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="eyebrow.png" width="150px" height="150px">
+                    <p>Eyebrow Design</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="waxing.png" width="150px" height="150px">
+                    <p>Waxing</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <img src="face.png" width="150px" height="150px">
+                    <p>Skin Cleansing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services ends-->
+    <!--Package starts-->
+    <div id="package">
+        <a href="#home"><img src="logo.png" height="100px" width="270px" id="logo"></a>
+        <h1 class="headings">Packages</h1><hr><br>
+        <div class="package-cards">
+            <div class="card">
+                <div class="card-title">
+                    <h1 id="package-type">Gold</h1>
+                </div>
+                <div class="card-items">
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Hairstyle</p>   
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Makeup</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Manicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Pedicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Face Cleansing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Waxing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Separate Bridal Room</p>
+                    </div>
+                    <button class="btn" id="1" onclick="toggle()">I want this</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <h1 id="package-type">Platinum</h1>
+                </div>
+                <div class="card-items">
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Hairstyle</p>   
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Makeup</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Manicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Pedicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Face Cleansing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Waxing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-xmark x-icon"></i>
+                        <p class="not">Separate Bridal Room</p>
+                    </div>
+                    <button class="btn" id="2" onclick="toggle()">I want this</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-title">
+                    <h1 id="package-type">Diamond</h1>
+                </div>
+                <div class="card-items">
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Hairstyle</p>   
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Makeup</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Manicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Pedicure</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Face Cleansing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Waxing</p>
+                    </div>
+                    <div class="items">
+                        <i class="fa-solid fa-square-check check-icon"></i>
+                        <p>Separate Bridal Room</p>
+                    </div>
+                    <button class="btn" id="3" onclick="toggle()">I want this</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!--Package ends-->
+    
+    <!--Contact starts-->
+    <div id="contact">
+        <a href="#home"><img src="logo.png" height="100px" width="270px" id="logo"></a>
+        <h1 class="headings">Contact Us</h1><hr><br>
+
+        <div class='contact'>
+            <table width=100% height=70%>
+                <tr>
+                    <td id='img2' width=50%></td>
+                    <td id='info'>
+                    <form  onsubmit="sendEmail(); reset(); return false;">
+                        <label>Your Name:</label><br>
+                        <input class='a' type="text" placeholder='Enter your Name' id="name" required><br>
+                        <label>Your Email:</label><br>
+                        <input class="a" type="email" placeholder='Email address' id="email" required><br><br>
+                        <label>Your message:</label><br>
+                        <textarea id="inquiry"></textarea><br><br>
+                        <button>Send Email</button>
+                    </form></td>
+                </tr>
+            </table>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <div class="address">
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>4th floor, Sankrit Complex,Near Gaytri Mandir,<br>Mehsana,Gujarat,India</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>+911234567890</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <p>lhssalon123@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright © All rights are reserved LHS 2022.</p>
+        </div>
+    </div>
+    <!--Contact ends-->
+    </main>
+    <!--Popup starts-->
+    <div id="popup">
+        <i class="fas fa-times close-btn" onclick="toggle()"></i>
+        <center><img src="logo.png" height="80px" width="150px" id="form-logo"></center>
+        <form onsubmit="Book(); reset(); return false;">
+            <label>Your Name:</label><br><br>
+            <input class='a' type="text" placeholder='Enter your Name' id="name" required><br><br>
+            <label>Your Email:</label><br><br>
+            <input class="a" type="email" placeholder='Email address' id="email" required><br><br>
+            <label>Select Date and time</label><br><br>
+            <input class='a' type="date" name="setTodaysDate"/><br><br>
+            <center>
+                <div class="button" onclick="select1()" id="b1">12:00PM</div> 
+                <div class="button" onclick="select2()" id="b2">2:00PM</div> 
+                <div class="button" onclick="select3()" id="b3">4:00PM</div> 
+                <div class="button" onclick="select4()" id="b4">6:00PM</div>
+            </center><br><br>
+            <center><button>Book</button></center>
+        </form>
+    </div>
+    <!--Popup ends-->
+    <script>
+        window.onload = function () {
+        var today = new Date().toISOString().split('T')[0];
+        document.getElementsByName("setTodaysDate")[0].setAttribute('min', today);
+        }
+    </script>
+</body>
+</html>
